@@ -1,0 +1,8 @@
+# Source research and scholarly judgment
+
+- Treat every quote as a textual claim: inspect source context and match edition and precise locator. Distinguish original source, later source quoting it, user's notes, and editorial inference. Mark transcription uncertainty and edition variants; never use quote marks around a paraphrase or conceal omissions.
+- Normalize Hebrew punctuation, niqqud and whitespace only for search, not output; surface candidate hits with surrounding context and ask human judgment to select. Search both abbreviations and expanded names, and both amud and dibbur. Do not infer halacha numbering from nearby text: versions split/merge halachot.
+- Distinguish ראיה / רגלים לדבר / אומדנא / הנהגה / דין ודאי / חזקה / מוחזקות / תקנה / מיגו. Do not flatten disputes or assert that a source explicitly says an inference. Consider whether source gives a necessary condition or proves the stated claim.
+- In particular, a discussion in supplied notes about a rishon is not necessarily a direct quotation; a passage from elsewhere by the same author is an independent parallel. Say which source supports which part and whether the notes actually use it.
+- Excerpts should include the words that decide the question and enough context to prevent misleading attribution, but obey copyright limits. If public-domain status or right to reproduce is uncertain, provide compliant brief excerpt and link to complete source.
+- Don't overstate legal/halachic implications. Maintain a clear distinction between editing, interpreting, and practical psak; defer to the user's instructions about editorial scope.
