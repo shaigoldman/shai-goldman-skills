@@ -1,0 +1,4 @@
+interface:
+  display_name: "Modular Skill Development"
+  short_description: "Build modular, reliable skills"
+  default_prompt: "Create or improve a skill with progressive disclosure and deterministic tools where useful."
