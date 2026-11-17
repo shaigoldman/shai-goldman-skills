@@ -2,8 +2,6 @@ interface:
   display_name: Annotate Torah Sources
   short_description: Verify and annotate Hebrew source citations
   default_prompt: Find, verify, and annotate the sources in my Torah manuscript.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
 policy:
   products:
   - chatgpt
