@@ -1,0 +1,6 @@
+# Verification and delivery
+
+- Create a small comparison corpus including ordinary cases, corner cases, and cases known to stress or fail. Check output validity and behavior against the original, not just whether the program starts. If output has multiple valid forms, validate semantics rather than exact rendering unless ordering is an intended invariant.
+- Run unit/core tests, compile and lint, then exercise the user flow: launch, input, result, retry, cancellation, errors, navigation and interruption. Check asset loading, worker startup, offline expectations, stale caches and cold install. Test real browser/device and emulator where available; say exactly which were exercised and any untested parts.
+- Benchmark with repeated measurements, comparable inputs and cold/warm distinction. Separate download/startup overhead from compute; report hardware, runtime, distribution and failures. A size threshold is an empirically provisional policy, not a correctness guarantee.
+- Keep builds reproducible and avoid checking in generated binaries unless project conventions require them. Provide the build workflow, output location, signing status, and install steps. Verify deployed URLs or artifact links; test previous behavior for regressions. Do not report publication or successful installation without observing it.
