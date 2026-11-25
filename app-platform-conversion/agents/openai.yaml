@@ -1,0 +1,4 @@
+interface:
+  display_name: "App Platform Conversion"
+  short_description: "Turn existing projects into web and mobile apps"
+  default_prompt: "Convert an existing project into a tested web or mobile app."
