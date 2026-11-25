@@ -1,0 +1,6 @@
+# Web conversion
+
+- Identify the engine boundary, accepted inputs and outputs, dictionary/assets, and constraints on memory, concurrency and runtime. A CLI can become a library, WASM module, or server API depending on language, hosting and privacy. Browser execution is not automatically faster, and WebAssembly does not itself provide threads.
+- Use project hosting constraints to choose a deployment: static hosts cannot run arbitrary backend code. If static, include all required runtime and data assets, use host-compatible base paths, and verify CORS, MIME types, worker URLs and cancellation. Keep the UI responsive with workers for expensive computation. Describe heuristic failures separately from proof of unsolvability.
+- Support meaningful progress and accessible interactions, responsive mobile layouts, keyboard input and errors. Measure cold-start, warm latency and memory on representative inputs; check low-power devices separately.
+- For installable web apps verify manifest, icons, scoped start URL, secure origin and behavior after install. Offline support requires explicitly caching every required asset and updating caches safely; installation alone does not guarantee offline operation.
