@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deliver Latest App Build"
+  short_description: "Find and deliver the latest app build"
+  default_prompt: "Find and deliver the latest installable build of my app."
